@@ -1,0 +1,21 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>home</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="cont" padding>
+
+    <ion-list class="lista">
+        <button ion-item *ngFor="let producto of productos" (click)="Detalles(producto.ref)">
+           <h1>{{ producto.nombre }}</h1> <p>{{ producto.precio }}</p>
+        </button>  
+    </ion-list>
+
+    <button ion-button (click)="Add()" class="inicio">Registrar Producto</button>
+    
+
+</ion-content>

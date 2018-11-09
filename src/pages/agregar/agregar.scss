@@ -1,0 +1,34 @@
+page-agregar {
+
+    .toolbar-background{
+        background-color: red;
+        }
+
+    .contenido{
+        background-color: red;
+    }
+
+    .ingreso{
+        width: 100%;
+        height: 10px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        margin-bottom: 20px; 
+        top: 50px;
+    }
+
+    .inicio{
+        top: 80px;
+        font-size: 1.3em;
+        left: 120px;
+      
+    }
+
+    .inicio1{
+        top: 140px;
+        font-size: 1.3em;
+        left: -10px;
+      
+    }
+}
